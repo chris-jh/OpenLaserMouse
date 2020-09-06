@@ -4,8 +4,8 @@
 Version 1.2
 Copyright 2020 Chrissy
 
-ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800
-QUADRATURE interface based on blog from http://danceswithferrets.org/geekblog/?p=742
+* ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800
+* QUADRATURE interface based on blog from http://danceswithferrets.org/geekblog/?p=742
 
 # !!!!! WARNING !!!!!
 Don't Plug in the USB to the Arduino while connected to the Amiga/Computer, as this will join the 5V together and may damage something.

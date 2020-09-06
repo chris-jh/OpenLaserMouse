@@ -7,7 +7,7 @@ Copyright 2020 Chrissy
 * ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800
 * QUADRATURE interface based on blog from http://danceswithferrets.org/geekblog/?p=742
 
-Two Versions of the PCB, a SMD version and a THT version which is currently untested.
+Two versions of the PCB, a SMD version and a THT version which is currently untested.
 
 Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 

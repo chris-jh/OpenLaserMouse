@@ -1,7 +1,7 @@
 /*
  * Open Laser Mouse
  * By Chrissy
- * Version 1.2
+ * Version 1.3
  * Copyright 2020
  * 
  * ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800

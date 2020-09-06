@@ -1,7 +1,7 @@
 # Open Laser Mouse
  Quadrature Optical Mouse Replacement Using an Arduino for the Amiga Tank Mouse
 
-Version 1.2
+Version 1.3
 Copyright 2020 Chrissy
 
 * ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800
@@ -15,4 +15,4 @@ Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from 
 ## !!!!! WARNING !!!!!
 Don't Plug in the USB to the Arduino while connected to the Amiga/Computer, as this will join the 5V together and may damage something.
 
-This is still a work in progress, use at your own risk. I accept no resposibility if this damages any of your equipment.
+This is still a work in progress, use at your own risk. I accept no responsibility if this damages any of your equipment.

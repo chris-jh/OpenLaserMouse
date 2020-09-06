@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OpenLaserMouse)(type Legacy)(uri ${KIPRJMOD}/OpenLaserMouse.lib)(options "")(descr ""))
+  (lib (name Transistors_PMOS)(type Legacy)(uri ${KIPRJMOD}/Transistors_PMOS.lib)(options "")(descr ""))
+)

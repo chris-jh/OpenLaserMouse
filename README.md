@@ -12,6 +12,7 @@ Two versions of the PCB, a SMD version and a THT version which is currently unte
 Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 
 [**SMD Interactive BOM**][IBOMSMD]
+
 [**THT Interactive BOM**][IBOMTHT]
 
 ## !!!!! WARNING !!!!!

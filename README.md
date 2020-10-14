@@ -15,6 +15,14 @@ Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from 
 
 [**THT Interactive BOM**][IBOMTHT]
 
+3D Printable Lens Cover still requires testing, Sketchup model file is included to modify for tolerances of your printer
+
+A Fully printable Amiga Tank Mouse is available here
+
+https://www.myminifactory.com/object/3d-print-amiga-tank-mouse-all-parts-are-ultra-detailed-100-size-104702
+
+Although looks tuff to print :)
+
 ## !!!!! WARNING !!!!!
 Don't Plug in the USB to the Arduino while connected to the Amiga/Computer, as this will join the 5V together and may damage something.
 

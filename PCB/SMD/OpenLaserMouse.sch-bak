@@ -246,6 +246,17 @@ Text Notes 605  630  0    50   ~ 0
 Arduino Nano V3.0
 Wire Notes Line
 	5055 635  5055 5195
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5E87CED7
+P 805 4925
+F 0 "MH1" H 905 4971 50  0000 L CNN
+F 1 "Mouse Hole 1" H 905 4880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm" H 805 4925 50  0001 C CNN
+F 3 "~" H 805 4925 50  0001 C CNN
+	1    805  4925
+	1    0    0    -1  
+$EndComp
 NoConn ~ 2565 2430
 NoConn ~ 2565 2530
 NoConn ~ 2565 2630
@@ -267,6 +278,17 @@ F 2 "" H 1895 3430 50  0001 C CNN
 F 3 "" H 1895 3430 50  0001 C CNN
 	1    1895 3430
 	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5E882EDD
+P 805 5290
+F 0 "MH2" H 905 5336 50  0000 L CNN
+F 1 "Mouse Hole 2" H 905 5245 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm" H 805 5290 50  0001 C CNN
+F 3 "~" H 805 5290 50  0001 C CNN
+	1    805  5290
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3860 1990 4030 1990
@@ -796,26 +818,4 @@ F 3 "" H 6580 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6430 1850 6580 1850
-$Comp
-L Mechanical:MountingHole MH2
-U 1 1 5E882EDD
-P 805 5290
-F 0 "MH2" H 905 5336 50  0000 L CNN
-F 1 "Mouse Hole 2" H 905 5245 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5" H 805 5290 50  0001 C CNN
-F 3 "~" H 805 5290 50  0001 C CNN
-	1    805  5290
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH1
-U 1 1 5E87CED7
-P 805 4925
-F 0 "MH1" H 905 4971 50  0000 L CNN
-F 1 "Mouse Hole 1" H 905 4880 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5" H 805 4925 50  0001 C CNN
-F 3 "~" H 805 4925 50  0001 C CNN
-	1    805  4925
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

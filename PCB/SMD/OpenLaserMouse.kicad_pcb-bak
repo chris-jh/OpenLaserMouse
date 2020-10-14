@@ -55,8 +55,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 3 3)
-    (pad_drill 1.5)
+    (pad_size 6 6)
+    (pad_drill 6)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -177,25 +177,7 @@
     (add_net V_PULSE)
   )
 
-  (module MountingHole:MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5EA583DD) (tstamp 5E874214)
-    (at 67.945 116.078)
-    (descr "Mounting Hole 5.3mm, no annular, M5")
-    (tags "mounting hole 5.3mm no annular m5")
-    (path /5E882EDD)
-    (attr virtual)
-    (fp_text reference MH2 (at 0 -3.429) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "Mouse Hole 2" (at 0 3.429) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0) (size 5.3 5.3) (drill 5.3) (layers *.Cu *.Mask))
-  )
-
-  (module MountingHole:MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5EA583BE) (tstamp 5E87420C)
+  (module MountingHole:MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5F5DE1AE) (tstamp 5E87420C)
     (at 68.0085 73.9775)
     (descr "Mounting Hole 5.3mm, no annular, M5")
     (tags "mounting hole 5.3mm no annular m5")
@@ -210,7 +192,25 @@
     (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 np_thru_hole circle (at 0 0) (size 5.3 5.3) (drill 5.3) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5F5DE19F) (tstamp 5E874214)
+    (at 67.945 116.078)
+    (descr "Mounting Hole 5.3mm, no annular, M5")
+    (tags "mounting hole 5.3mm no annular m5")
+    (path /5E882EDD)
+    (attr virtual)
+    (fp_text reference MH2 (at 0 -3.429) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Mouse Hole 2" (at 0 3.429) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask))
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E8A2674)
@@ -1185,7 +1185,7 @@
   (gr_text RIGHT (at 86.106 54.1655) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Open Laser Mouse V1.2 2020 By Chrissy" (at 77.597 122.174) (layer F.SilkS)
+  (gr_text "Open Laser Mouse V1.3 2020 By Chrissy" (at 77.597 122.174) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 93.5 124) (end 96 121.5) (layer Edge.Cuts) (width 0.05) (tstamp 5E3601ED))

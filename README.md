@@ -1,6 +1,8 @@
 # Open Laser Mouse
  Quadrature Optical Mouse Replacement Using an Arduino for the Amiga Tank Mouse
 
+![PCB](Photos/small.jpg)
+
 Version 1.3
 Copyright 2020 Chrissy
 

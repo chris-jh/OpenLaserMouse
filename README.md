@@ -17,7 +17,7 @@ Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from 
 
 [**THT Interactive BOM**][IBOMTHT]
 
-Gerbers have been created from the recommendations from JLCPCB.
+Gerbers have been created from the recommendations at JLCPCB.
 
 (https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files)
 

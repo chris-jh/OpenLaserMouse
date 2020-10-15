@@ -9,7 +9,7 @@ Copyright 2020 Chrissy
 * ADNS9800 interface based on code from https://github.com/mrjohnk/ADNS-9800
 * QUADRATURE interface based on blog from http://danceswithferrets.org/geekblog/?p=742
 
-Two versions of the PCB, a SMD version and a THT version which is currently untested.
+Two versions of the PCB, a SMD version (v1.1 Tested, not v1.3 yet) and a THT version which is currently untested.
 
 Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from Aliexpress. Make sure to also get the Lens.
 
@@ -17,13 +17,23 @@ Requires an Arduino Nano and a ADNS9800 Laser, which you can get still get from 
 
 [**THT Interactive BOM**][IBOMTHT]
 
-3D Printable Lens Cover still requires testing, Sketchup model file is included to modify for tolerances of your printer
+Gerbers have been created from the recommendations from JLCPCB.
 
-A Fully printable Amiga Tank Mouse is available here
+(https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files)
+
+You may need to re-generate for your chosen PCB Manufacturer
+
+---
+
+3D Printable Lens Cover still requires testing, Sketchup model file is included to modify for tolerances of your printer.
+
+A fully printable Amiga Tank Mouse is available here
 
 https://www.myminifactory.com/object/3d-print-amiga-tank-mouse-all-parts-are-ultra-detailed-100-size-104702
 
-Although looks tuff to print :)
+Although looks tough to print :)
+
+---
 
 ## !!!!! WARNING !!!!!
 Don't Plug in the USB to the Arduino while connected to the Amiga/Computer, as this will join the 5V together and may damage something.

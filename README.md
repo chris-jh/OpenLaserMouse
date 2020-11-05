@@ -3,6 +3,15 @@
 
 ![PCB](Photos/small.jpg)
 
+Version 1.4
+Copyright 2020 Chrissy
+
+* Added Atari ST SMD Version
+  * Not Tested
+  * Arduino is flipped 180° for ST version
+  * Use same Amiga Pin definition in Arduino source if using original ST DE9 Connector.
+* Fixed Wrong Fillplane selected. Corrected it back to GND.
+
 Version 1.3
 Copyright 2020 Chrissy
 

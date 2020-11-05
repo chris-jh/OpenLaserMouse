@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/christopher/Library/Mobile Documents/com~apple~CloudDocs/Mine/Retro/Commodore/Amiga/LaserMouse/OpenLaserMouse/PCB/SMD/OpenLaserMouse.sch</source>
+    <date>Saturday, 12 September 2020 at 22:33:56</date>
+    <tool>Eeschema (5.1.4-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OpenLaserMouse.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Amiga_Conn</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="OpenLaserMouse" part="Mouse_Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E35A0A8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E425BEF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E42DBE9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E42DBFC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>3.3uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E425C02</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>LEFT</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7907F8</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>RIGHT</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E79FF5E</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>Mouse Hole 1</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87CED7</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>Mouse Hole 2</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E882EDD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E96FD1A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E97F2F0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9998BC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9998C3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.8K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E99E202</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E99E209</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A1763</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>ADNS-9800</value>
+      <footprint>OptoDevice:ADNS-9800</footprint>
+      <libsource lib="OpenLaserMouse" part="ADNS-9800" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDFB0C8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE0D07A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E431B48</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E431B35</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE63B17</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D6F14</tstamp>
+    </comp>
+    <comp ref="SH1">
+      <value>SHEILD</value>
+      <footprint>Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B72C7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6302TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="OpenLaserMouse" part="PMOS_VISHAY_SOT23" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDFF168</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <aliases>
+        <alias>Arduino_Nano_v2.x</alias>
+      </aliases>
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenLaserMouse" part="ADNS-9800">
+      <footprints>
+        <fp>*AVAGO_ADNS-9500*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">ADNS-9800</field>
+        <field name="Footprint">ADNS-9800</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VCSEL" type="power_in"/>
+        <pin num="2" name="LASER_NEN" type="output"/>
+        <pin num="3" name="NCS" type="input"/>
+        <pin num="4" name="MISO" type="output"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MOTION" type="output"/>
+        <pin num="8" name="XYLASER" type="input"/>
+        <pin num="9" name="VDD3" type="power_in"/>
+        <pin num="10" name="PWR_OPT" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VDD3" type="power_in"/>
+        <pin num="13" name="REFA" type="power_out"/>
+        <pin num="14" name="DGND" type="power_in"/>
+        <pin num="15" name="VDDIO" type="power_in"/>
+        <pin num="16" name="-VCSEL" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenLaserMouse" part="Mouse_Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Mouse_Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="power_out"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenLaserMouse" part="PMOS_VISHAY_SOT23">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS_VISHAY_SOT23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="input"/>
+        <pin num="3" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/Library/Application Support/kicad/library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="OpenLaserMouse">
+      <uri>/Users/christopher/Library/Mobile Documents/com~apple~CloudDocs/Mine/Retro/Commodore/Amiga/LaserMouse/OpenLaserMouse/PCB/SMD/OpenLaserMouse.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="NCS-H">
+      <node ref="A1" pin="13"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="MOSI-H">
+      <node ref="A1" pin="14"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="3" name="MISO">
+      <node ref="A1" pin="15"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="4" name="SCLK-H">
+      <node ref="A1" pin="16"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="5" name="MOTION">
+      <node ref="A1" pin="5"/>
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="A1" pin="29"/>
+      <node ref="A1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="M1" pin="11"/>
+      <node ref="M1" pin="14"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SH1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="HQ_PULSE">
+      <node ref="J1" pin="6"/>
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="A1" pin="30"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="9" name="B2_RIGHT">
+      <node ref="J1" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="10" name="B1_LEFT">
+      <node ref="SW2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="11" name="V_PULSE">
+      <node ref="J1" pin="3"/>
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="12" name="VQ_PULSE">
+      <node ref="J1" pin="4"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="13" name="H_PULSE">
+      <node ref="J1" pin="7"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="14" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(A1-Pad19)">
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="16" name="Net-(A1-Pad20)">
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="17" name="Net-(A1-Pad21)">
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="18" name="Net-(A1-Pad22)">
+      <node ref="A1" pin="22"/>
+    </net>
+    <net code="19" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="20" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="21" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="22" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="23" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="24" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="26" name="NCS">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="27" name="SCLK">
+      <node ref="R6" pin="2"/>
+      <node ref="M1" pin="5"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="28" name="MOSI">
+      <node ref="R3" pin="1"/>
+      <node ref="M1" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="32" name="+3V3">
+      <node ref="C4" pin="2"/>
+      <node ref="M1" pin="9"/>
+      <node ref="M1" pin="15"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="M1" pin="12"/>
+      <node ref="M1" pin="10"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="A1" pin="17"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="35" name="LASER_NEN">
+      <node ref="Q1" pin="1"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C7-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="M1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="38" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="M1" pin="8"/>
+      <node ref="M1" pin="16"/>
+    </net>
+  </nets>
+</export>

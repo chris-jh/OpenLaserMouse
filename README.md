@@ -3,6 +3,11 @@
 
 ![PCB](Photos/small.jpg)
 
+Version 1.4.1
+Copyright 2020 Chrissy
+
+* Updated 3D Lens Cover
+
 Version 1.4
 Copyright 2020 Chrissy
 
@@ -34,7 +39,23 @@ You may need to re-generate for your chosen PCB Manufacturer
 
 ---
 
+## 3D Printable Lens Cover
+
 3D Printable Lens Cover still requires testing, Sketchup model file is included to modify for tolerances of your printer.
+<br>Only for Amiga SMD Version at the moment
+
+***Print Settings***
+
+* Layer Height : 1.5mm
+* Print Speed : 25 mm/s
+* Initial Layer Speed: 15mm
+* Support: Yes
+* Infill: 20%
+* Line Width: 0.4mm
+* Print Thin Walls: Yes
+* Filter Out Tiny Gaps: Yes
+
+3D printed on a Ender 3 using Cura
 
 A fully printable Amiga Tank Mouse is available here
 

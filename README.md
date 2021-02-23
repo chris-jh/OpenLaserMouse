@@ -37,6 +37,8 @@ Gerbers have been created from the recommendations at JLCPCB.
 
 You may need to re-generate for your chosen PCB Manufacturer
 
+get the 1.2mm PCB Thickness or get smaller height tact switches if you use 1.6mm thickness. It is a tight tolerance between the tact switch mouse buttons and the posts on the mouse buttons.
+
 ---
 
 ## 3D Printable Lens Cover
